@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.background {
+    background-color: #d0f1c5;
+    height: 1044px;
+
+
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 54px;
+
+        .text-1 {
+            color: #48A300;
+        }
+
+        .text-2 {
+            color: #61481C;
+        }
+    }
+}
+
+.container {
+    min-width: 200px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    padding: 40px;
+
+    .heading {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        position: relative;
+
+    }
+
+    .smile {
+        position: absolute;
+        left: 18.57px;
+        top: 20px;
+    }
+
+    .text-3 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+
+    .quote-1 {
+        font-size: 14px;
+        margin-top: 20px;
+        color: #858585;
+    }
+
+    .progress-bar {
+        height: 24px;
+        background-color: #d0f1c5;
+        border-radius: 15px;
+        margin-top: 20px;
+        display: flex;
+
+
+        .progress-value {
+            background-color: #48A300;
+            height: 100%;
+            display: block;
+            border-radius: 15px;
+            transition: all 0.7s ease-in-out;
+            display: flex;
+            align-items: center;
+            padding: 5px 5px;
+            overflow: hidden;
+        }
+
+        .progress-text {
+            flex-shrink: 0;
+            font-size: 12px;
+        }
+
+        .progress-block {
+            padding: 0%;
+            width: 0%;
+        }
+
+    }
+
+    .error {
+        color: red;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+
+    .goals-container {
+        margin-top: 25px;
+
+        .goal {
+            border: 1px solid #0000001A;
+            display: flex;
+            align-items: center;
+            border-radius: 17px;
+            height: 60px;
+            margin-bottom: 35px;
+
+            .checkbox {
+                border: 1px solid #0000001A;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                margin: 0px 15px;
+            }
+
+            .checked {
+                background-color: #48A300;
+                background-image: url('images/tick.svg');
+                background-repeat: no-repeat;
+                background-size: 13px;
+                background-position: center;
+            }
+
+            input {
+                border: none;
+                outline: none;
+                font-size: 16px;
+                font-weight: 500;
+                background-color: #FBFBFB;
+            }
+
+            input:disabled {
+                background-color: #FBFBFB;
+            }
+
+            .strike {
+                text-decoration: line-through;
+                color: #48A300;
+            }
+        }
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .made-with {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+}
